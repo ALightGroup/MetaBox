@@ -1,0 +1,36 @@
+pluginManagement {
+  repositories {
+    gradlePluginPortal()
+    google()
+    mavenCentral()
+    mavenLocal()
+  }
+}
+enableFeaturePreview('VERSION_CATALOGS')
+dependencyResolutionManagement {
+//  repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+  repositories {
+    google()
+    mavenCentral()
+    mavenLocal()
+  }
+
+  versionCatalogs {
+    libs {
+      from("com.alg.plugin.version:catalog:0.0.1")
+    }
+  }
+}
+rootProject.name = "MetaBoxApp"
+include ':app'
+
+//def nameList = ["MetaFrame", "MetaService"]
+//def pathList = ["../MetaFrame/MetaFrame", "../MetaService/MetaService"]
+//
+//def i = 0
+//nameList.forEach {
+//  include ":${it}"
+//  project(":${it}").projectDir = new File(settingsDir, pathList[i])
+//  i++
+//}
+

@@ -1,0 +1,42 @@
+plugins {
+  id 'com.android.application'
+  id 'org.jetbrains.kotlin.android'
+}
+
+android {
+  namespace 'com.alg.metabox'
+  compileSdk libs.versions.compilesdk.get().toInteger()
+
+  defaultConfig {
+    applicationId "com.alg.metabox"
+    minSdk libs.versions.minSdk.get().toInteger()
+    targetSdk libs.versions.targetsdk.get().toInteger()
+    versionCode 1
+    versionName "1.0"
+
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+  }
+
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+  }
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+  kotlinOptions {
+    jvmTarget = '1.8'
+  }
+}
+
+dependencies {
+  implementation(libs.junit)
+  implementation(libs.bundles.android.test)
+  implementation(libs.android.ktx)
+  implementation(libs.appcompat)
+  implementation(libs.bundles.compose)
+  implementation(libs.bundles.lifecycle)
+}
