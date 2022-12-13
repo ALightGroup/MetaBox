@@ -79,7 +79,6 @@ git submodule add <url> <path>
 `git diff --cached`查看修改内容可以看到增加了子模块，并且新文件下为子模块的提交hash摘要
 
 
-
-
+## 其它
 
 本工程使用的代码风格是[java-code-style](https://github.com/square/java-code-styles)，提交pr之前请使用该风格格式化代码。
