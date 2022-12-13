@@ -1,3 +1,6 @@
 [submodule "MetaPlugins/WeakNetPlugin"]
 	path = MetaPlugins/WeakNetPlugin
 	url = git@github.com:ALightGroup/WeakNetPlugin.git
+[submodule "MetaPlugins/MagicPicturePlugin"]
+	path = MetaPlugins/MagicPicturePlugin
+	url = https://github.com/ALightGroup/MagicPicturePlugin.git
