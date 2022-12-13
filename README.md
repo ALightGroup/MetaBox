@@ -19,7 +19,7 @@ git submodule update --init --recursive
   - FileManagerPlugin 
   - ...
 
-3、版本依赖配置
+3、版本依赖配置</br>
 a、发布版本管理插件[VersionManager](https://github.com/ALightGroup/VersionManager)，执行下面命令发布通用版本到本地仓库
 ```
 ./gradlew build publishToMavenLocal
@@ -31,7 +31,7 @@ b、发布基础组件插件[MetaFram](https://github.com/ALightGroup/MetaFrame)
 ```
 
 ## 创建一个插件
-1、创建一个普通的安卓项目
+1、创建一个普通的安卓项目 </br>
 2、在`setting.gradle`添加统一版本管理插件
 ```groovy
 pluginManagement {
