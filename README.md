@@ -4,6 +4,9 @@ MetaApp是一个工具类集合软件，主要特点有：</br>
 2、jetpact最佳实践 </br>
 3、每个工具都是一个单独的插件
 
+## 架构
+![](https://raw.githubusercontent.com/ALightGroup/ALightGroup.github.io/alg-img/20230215211759.png)
+
 ## 工程配置
 
 1、clone
