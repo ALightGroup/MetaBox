@@ -77,7 +77,12 @@ buildscript {
 ```sh
 git submodule add <url> <path>
 ```
-其中，url为子模块的路径，path为该子模块存储的目录路径。
+其中，url为子模块的厂库地址，path为该子模块存储的目录路径。
+例如：
+```sh
+git submodule add https://github.com/ALightGroup/MetaWallpaper.git MetaPlugins/MetaWallpaper
+```
+
 执行成功后，git status会看到项目中修改了.gitmodules，并增加了一个新文件（为刚刚添加的路径）
 `git diff --cached`查看修改内容可以看到增加了子模块，并且新文件下为子模块的提交hash摘要
 
