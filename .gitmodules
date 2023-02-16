@@ -4,3 +4,6 @@
 [submodule "MetaPlugins/MagicPicturePlugin"]
 	path = MetaPlugins/MagicPicturePlugin
 	url = https://github.com/ALightGroup/MagicPicturePlugin.git
+[submodule "MetaPlugins/MetaWallpaper"]
+	path = MetaPlugins/MetaWallpaper
+	url = https://github.com/ALightGroup/MetaWallpaper.git
