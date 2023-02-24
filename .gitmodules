@@ -7,3 +7,6 @@
 [submodule "MetaPlugins/MetaWallpaper"]
 	path = MetaPlugins/MetaWallpaper
 	url = https://github.com/ALightGroup/MetaWallpaper.git
+[submodule "MetaPlugins/MetaFilemanager"]
+	path = MetaPlugins/MetaFilemanager
+	url = https://github.com/ALightGroup/MetaFileManager.git
