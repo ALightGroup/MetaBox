@@ -10,3 +10,6 @@
 [submodule "MetaPlugins/MetaFilemanager"]
 	path = MetaPlugins/MetaFilemanager
 	url = https://github.com/ALightGroup/MetaFileManager.git
+[submodule "MetaPlugins/MetaVideoPlugin"]
+	path = MetaPlugins/MetaVideoPlugin
+	url = git@github.com:ALightGroup/MetaVideoPlugin.git
